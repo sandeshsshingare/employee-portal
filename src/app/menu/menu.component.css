@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+.menu{
+   
+    background:white;
+    padding:20px 30px;
+    width:100%;
+    padding-top:1px;
+    box-shadow: 1px 1px 5px black;
+
+    
+   
+}
+label{
+    font-size:29px;
+    margin-left:30px;
+    padding-right:10px;
+    color:indigo;
+    font-weight:600;
+ 
+}
+.route{
+    float:right;
+    margin-right:40px;
+    margin-top: 7px;
+}
+.route a{
+    padding-right:60px;
+    text-decoration: none;
+    color:#000000;
+    font-size: 18px;
+}
+@media screen and (min-width:600px) {
+  .route a{
+    font-size:15px;
+    padding-right:10px;
+    margin-right:3px;
+    color:indigo;
+    border-left:4px solid indigo;
+    border-radius:16px;
+    margin-left:6px;
+    padding-left:8px;
+  }
+}

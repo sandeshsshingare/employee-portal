@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Ram",
+    "Department": "Software enginnering",
+    "Phoneno": 9087667654
+  },
+  {
+    "name": "Sham",
+    "Department": "Software enginnering",
+    "Phoneno": 8765432189
+  },
+  {
+    "name": "Rani",
+    "Department": "QA Analyst",
+    "Phoneno": 7896543218
+  }
+]

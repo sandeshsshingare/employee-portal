@@ -1,0 +1,63 @@
+#Message{
+  color:#6b04e0;
+
+  background:#efe0ff;
+  width:100%;
+  margin-top: 20px;
+  padding:5px 20px;
+  display: flex;
+  justify-content: center;
+  transition:linear 2s;
+  display: none;
+}
+span {
+  color: red;
+  font-size: 15px;
+  padding-bottom:5px;
+}
+form {
+
+  margin: 80px auto;
+
+  background:rgb(248, 237, 248);
+  max-width: 500px;
+  max-height: 1500px;
+  padding: 30px;
+ 
+}
+h1{
+   
+    border-left: 5px solid indigo;
+    padding-left:15px;
+}
+input {
+  padding: 12px 20px;
+  font-size: 15px;
+  width: 100%;
+  margin: 8px 0;
+  border:1px solid indigo;
+  box-sizing: border-box;
+  
+}
+.register div {
+  margin-top: 70px;
+}
+input:hover {
+  border: 2px solid indigo;
+}
+label {
+    
+  color: #6b04e0;
+}
+button {
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 40px;
+  background: indigo;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  
+}
+

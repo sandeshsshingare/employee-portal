@@ -1,0 +1,80 @@
+<div class="register">
+  <span id="Message">Employee details added sucessfully!</span> 
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <h1>Employee Registration</h1>
+
+ 
+  
+       <label>Employee ID:</label>
+     
+        <input
+      type="text"
+      name="EmpId"
+      placeholder="enter id.."
+      formControlName="EmpId"
+    />
+      
+    
+   <!-- <span *ngIf="EmpId.invalid && EmpId.touched">
+      <small *ngIf="EmpId.errors?.['required']">Enter employee Id</small>
+    </span>-->
+  
+    
+        <label>Employee Name:</label>
+      
+        <input
+      type="text"
+      name="emp"
+      placeholder="enter name.."
+      formControlName="emp"
+    />
+      
+    
+    
+    
+    <span *ngIf="emp.invalid && emp.touched">
+      <small *ngIf="emp.errors?.['required']">Enter employee name</small>
+      <small *ngIf="emp.errors?.['pattern']"
+        >Name contains only alphabets and spaces</small
+      >
+    </span>
+    <br>
+    
+ 
+    
+         <label>Employee Department:</label>
+      
+         <input
+      type="text"
+      name="dept"
+      placeholder="enter Department.."
+      formControlName="dept"
+    />
+    <span *ngIf="dept.invalid && dept.touched">
+      <small *ngIf="dept.errors?.['required']">Enter Department name</small>
+      <small *ngIf="dept.errors?.['pattern']"
+        >Department contains only alphabets and spaces</small
+      >
+    </span><br>
+     
+   
+   
+
+    <label>Employee Phone no:</label>
+    <input
+      type="decimal"
+      name="phone"
+      placeholder="enter phoneno.."
+      formControlName="phone"
+    />
+    <span *ngIf="phone.invalid && phone.touched">
+      <small *ngIf="phone.errors?.['required']">Enter Phone no</small>
+      <small *ngIf="phone.errors?.['pattern']"
+        >Only 10 digits are allowed</small
+      >
+    </span>
+ 
+    <button type="submit">Add</button>
+ 
+</form>
+</div>

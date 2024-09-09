@@ -1,0 +1,42 @@
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 5px;
+  margin: 5px;
+ 
+}
+ul {
+  list-style-type: none;
+}
+.empdetail {
+  width: 300px;
+  background: linear-gradient(#fff,#f7caf8);
+  border-radius: 40px;
+  height: 300px;
+  
+ border:2px solid #73378a;
+}
+label{
+    font-weight: bold;
+    color:#000000;
+ 
+}
+button{
+    padding:5px 8px;
+    margin-right:8px;
+    margin-top: 10px;
+    background: #73378a;
+    color:#fff;
+    border:none;
+}
+h1{
+    text-transform: capitalize;
+    color:#73378a;
+    
+   
+ 
+    font-size:27px;
+    padding-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}

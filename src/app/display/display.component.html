@@ -1,0 +1,28 @@
+<h1>employee data</h1>
+
+<div>
+    
+        @for(d of data;track data.name){
+            <div class="empdetail">
+            <ul>
+                <li><img src="assets/e.png" alt="employee logo"></li>
+                <li>
+                    <label>Emp ID:</label> {{d.EmpId}}
+                </li>
+                <li>
+                    <label>Name:</label>  {{d.emp}}
+                </li>
+                <li>
+                    <label>Department:</label> {{d.dept}}
+                </li>
+                <li>
+                   <label>Phone no:</label>   {{d.phone}}
+                </li>
+                <li><button (click)="deleteEmployee(d.id)">Delete</button><button>Update</button></li>
+    </ul>
+    </div>
+}
+
+</div>
+
+
